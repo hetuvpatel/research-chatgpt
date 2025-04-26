@@ -1,9 +1,10 @@
 # 🤖 AI-Powered Chatbot: ChatGPT - A Social and Ethical Perspective
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Built%20With-Research%20%26%20Survey-blue?style=for-the-badge" alt="Research and Survey" />
-  <img src="https://img.shields.io/badge/Field-Social%20Issues%20%26%20Ethics-ff69b4?style=for-the-badge" alt="Social Issues and Ethics" />
-  <img src="https://img.shields.io/badge/Platform-OpenAI%20%7C%20ChatGPT-29b6f6?style=for-the-badge&logo=openai" alt="OpenAI ChatGPT" />
+  <img src="https://img.shields.io/badge/Built%20With-Python-3776AB?style=for-the-badge&logo=python" alt="Python" />
+  <img src="https://img.shields.io/badge/Libraries-Pandas%20%7C%20Matplotlib%20%7C%20Seaborn-ff69b4?style=for-the-badge&logo=python" alt="Libraries" />
+  <img src="https://img.shields.io/badge/Field-Social%20Issues%20%7C%20AI%20Ethics-29b6f6?style=for-the-badge&logo=openai" alt="Social Issues and Ethics" />
+  <img src="https://img.shields.io/badge/Analysis-Survey%20Data%20Analysis-blueviolet?style=for-the-badge" alt="Survey Data Analysis" />
   <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" alt="Completed Project" />
 </p>
 
@@ -11,26 +12,24 @@
 
 ## 📚 Project Overview
 
-This project explores the **impact of ChatGPT** on education through a **survey-driven research study**.  
-We investigated how students across different fields perceive ChatGPT's **benefits**, **limitations**, **reliability**, and its **future role** in academia.
+This project combines **survey-driven research** and **Python-based data analysis** to investigate the **social and ethical implications** of using ChatGPT in education.  
+Using real-world survey responses and data science techniques, the study uncovers usage patterns, benefits, risks, and perceptions among students globally.
 
-✅ **Course:** CPS412 - Social Issues, Ethics, and Professionalism  
-✅ **Team:**  
-- Hetu Virajkumar Patel (501215707)  
-- Mishwa Tejash Patel (501170989)  
-- Mithil Joshua Peeris (501158175)  
-- Prachi Swamisaran Thakkar
+✅ **Domain:** AI Ethics, Machine Learning Applications  
+✅ **Technologies Used:** Python, Pandas, Matplotlib, Seaborn  
+✅ **Dataset:** 106 Survey Responses collected via Google Forms
 
 ---
 
 ## 📖 Table of Contents
 
 - [Introduction](#introduction)
-- [Findings from the Survey](#findings-from-the-survey)
-- [Benefits and Limitations](#benefits-and-limitations)
-- [Future of ChatGPT](#future-of-chatgpt)
+- [Technical Stack](#technical-stack)
+- [Survey Data Analysis](#survey-data-analysis)
+- [Key Findings](#key-findings)
+- [Visualizations](#visualizations)
 - [Conclusion](#conclusion)
-- [Appendices (Visuals)](#appendices-visuals)
+- [Future Work](#future-work)
 - [Bibliography](#bibliography)
 - [Contact](#contact)
 
@@ -38,66 +37,74 @@ We investigated how students across different fields perceive ChatGPT's **benefi
 
 ## 🧩 Introduction
 
-ChatGPT, developed by **OpenAI**, is a **generative pre-trained transformer (GPT)** model.  
-Launched in **November 2022**, it revolutionized human-machine text interactions through its capabilities like essay summarization, programming assistance, and natural conversation.
+ChatGPT by **OpenAI** is a generative transformer model that has transformed how humans interact with AI.  
+This project aims to **analyze** how ChatGPT is impacting academia, using **data analytics** to draw technical and social insights.
 
 ---
 
-## 📊 Findings from the Survey
+## 🛠️ Technical Stack
 
-**Survey Size:** 106 Participants
-
-| Demographic Category | Insights |
-|:---------------------|:---------|
-| Age Range            | Majority (90.6%) aged 18-23 |
-| Gender               | 59.4% Male, 37.7% Female, 1.9% Non-binary |
-| Field of Study       | 43.4% Science, 29.2% Business, 13.2% Engineering |
-| Continent            | 86.8% Asia, 10.4% North America |
-| Level of Study       | 76.4% Undergraduates |
-
-✅ About **72%** of participants used ChatGPT at least once.
-
-✅ **75%** said they would recommend ChatGPT to others!
-
-📸 Survey Graphs:
-
-- ![How many used ChatGPT?](Images/figure1_usage.png)
-- ![Impact of ChatGPT on education](Images/figure3_impact.png)
-- ![Reliability ratings across faculties](Images/figure4_reliability.png)
+| Technology    | Purpose |
+|:--------------|:--------|
+| **Python**    | Core programming and data analysis |
+| **Pandas**    | Data manipulation and preprocessing |
+| **Matplotlib** | Survey data visualization |
+| **Seaborn**   | Enhanced graphs and statistical plots |
 
 ---
 
-## 🌟 Benefits and Limitations
+## 📊 Survey Data Analysis
 
-### ✅ Benefits:
-- Quick access to information and real-time learning.
-- Language learning support (translations, grammar).
-- Enhances research efficiency.
+- **Data Preprocessing:**  
+  Survey data was cleaned, categorized, and analyzed using **Pandas**.
 
-### ⚠️ Limitations:
-- Risk of hampering creative thinking.
-- Possible misinformation and biased outputs.
-- Reliance could affect students’ critical skills.
+- **Visualization Techniques:**  
+  Used **Matplotlib** and **Seaborn** to create:
+  - Distribution plots
+  - Heatmaps
+  - Categorical scatter plots
+  - Pie charts
 
----
+- **Statistical Summaries:**
+  - Frequency counts
+  - Group-by aggregations
+  - Cross-tabulations
 
-## 🔮 Future of ChatGPT
-
-- Summarization aid for teachers.
-- Automatic generation of quizzes and exercises.
-- Grading assistance to free up educators' time.
-
-> _"If used wisely, ChatGPT could be one of the greatest assets in modern education."_ 🧠✨
-
----
-
-## 🏆 Conclusion
-
-The survey revealed a strong inclination towards **accepting ChatGPT** positively despite concerns about **plagiarism** and **over-reliance**.  
-**Academia must evolve** to responsibly integrate AI tools into learning environments.
+📸 **Sample Analysis:**
+- Usage frequency by field of study
+- Reliability ratings comparison
+- Relationship between ChatGPT usage and perceived benefits
 
 ---
 
+## ✨ Key Findings
+
+| Insight | Observation |
+|:--------|:------------|
+| **Adoption Rate** | 72% of students have used ChatGPT |
+| **Recommendation Rate** | 75% recommend ChatGPT |
+| **Top Benefits** | Quick learning, translation aid, research support |
+| **Top Concerns** | Creativity loss, misinformation risks, critical thinking impact |
+
+---
+
+## ✅ Conclusion
+
+Through **Python-powered data analytics** combined with **social science research**, this study highlights both the **opportunities** and **challenges** posed by integrating ChatGPT into modern education systems.
+
+- Responsible usage policies are necessary.
+- Educators must adapt assessments for an AI-augmented future.
+- Students need training on AI literacy and critical analysis.
+
+---
+
+## 🔮 Future Work
+
+- 🧠 Expand to larger datasets for better generalization.
+- 📈 Apply **machine learning classifiers** to predict ChatGPT adoption likelihood.
+- 🌎 Conduct comparative studies across multiple continents.
+
+---
 
 ## 📚 Bibliography
 
@@ -117,4 +124,4 @@ The survey revealed a strong inclination towards **accepting ChatGPT** positivel
 
 ---
 
-> _"AI is not just a tool — it's the future of human learning."_ 🚀
+> _"Combining data science and ethics to understand the future of AI in education."_ 🚀📚
